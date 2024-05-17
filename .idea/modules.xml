@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microsservicos_curso.iml" filepath="$PROJECT_DIR$/.idea/microsservicos_curso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-validation-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-validation-service.main.iml" />
     </modules>
   </component>
 </project>
