@@ -20,8 +20,4 @@ public enum ETopics {
     NOTIFY_ENDING("notify-ending");
 
     private String topic;
-
-    ETopics(String topic) {
-        this.topic=topic;
-    }
 }
