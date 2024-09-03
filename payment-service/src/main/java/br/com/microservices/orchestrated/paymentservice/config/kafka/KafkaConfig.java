@@ -78,12 +78,12 @@ public class KafkaConfig {
     }
 
     @Bean
-    public NewTopic inventorySuccessTopic(){
+    public NewTopic paymentSuccessTopic(){
         return buildTopic(paymentSuccess);
     }
 
     @Bean
-    public NewTopic inventoryFailTopic(){
+    public NewTopic paymentFailTopic(){
         return buildTopic(paymentFail);
     }
 }

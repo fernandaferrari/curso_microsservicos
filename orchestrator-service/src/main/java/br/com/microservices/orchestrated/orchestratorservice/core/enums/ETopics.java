@@ -1,10 +1,9 @@
-package br.com.microservices.orchestrated.orchestratorservice;
+package br.com.microservices.orchestrated.orchestratorservice.core.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
-@AllArgsConstructor
 public enum ETopics {
 
     START_SAGA("start-saga"),
@@ -12,12 +11,21 @@ public enum ETopics {
     FINISH_SUCCESS("finish-success"),
     FINISH_FAIL("finish-fail"),
     PRODUCT_VALIDATION_SUCCESS("product-validation-success"),
-    PRODUCT_VALIDATION_FAIL("product-validation-fail"), 
+    PRODUCT_VALIDATION_FAIL("product-validation-fail"),
     PAYMENT_SUCCESS("payment-success"),
     PAYMENT_FAIL("payment-fail"),
     INVENTORY_SUCCESS("inventory-success"),
     INVENTORY_FAIL("inventory-fail"),
     NOTIFY_ENDING("notify-ending");
 
-    private String topic;
+    private final String topic;
+
+    ETopics(String topic) {
+        this.topic = topic;
+    }
+
+    public String getTopic() {
+        return topic;
+    }
 }
+
